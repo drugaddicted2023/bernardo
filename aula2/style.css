@@ -1,0 +1,54 @@
+:root{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(Banzai-Pipelines-and-Backdoor.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+    max-width: 960px;
+    margin:auto; /*centralizado*/
+}
+nav{
+    background-image: url(443556.jpg);
+    
+}
+main, section{
+    /* background-color:#F2D785; */
+    background-image: url(443556.jpg);
+}
+nav, main, section{
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin:0 20px;
+
+}
+main img{
+    float: left;
+    margin:0 25 px 25 px 0;
+}
+body: :fullscreen{
+
+}
+a:link, a :visited{
+    color:black ;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color:yellow;
+    text-decoration: underline;
+
+}
+a:active{
+    color:red
+}
